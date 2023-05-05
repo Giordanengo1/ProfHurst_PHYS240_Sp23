@@ -65,5 +65,7 @@ def collider(v,crmax,dt,selxtra,coeff,sD) :
                     v[ip2,:] = vcm - 0.5*vrel
 
             crmax[jcell] = crm      # Update max relative speed
-
+            
+           
+            
     return col
